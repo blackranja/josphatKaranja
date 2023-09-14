@@ -11,7 +11,7 @@ import TailWind from '../assets/logo2/tail1.png';
 import Mongo from '../assets/logo2/mongo1.png';
 import Express from '../assets/logo2/exp1.png';
 import ReactNative from '../assets/logo2/rn1.png'
-
+import Expo from '../assets/logo2/expo1.png'
 
 const Skills = () => {
   return (
@@ -71,6 +71,11 @@ const Skills = () => {
                     <img className="w-20 mx-auto" src={GitHub} alt="HTML icon"/>
                     <p className="my-4">GitHub</p>
                 </div>
+                <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <img className="w-20 mx-auto" src={Expo} alt="HTML icon"/>
+                    <p className="my-4">EXpo CLI</p>
+                </div>
+
 
             </div>
         </div>
