@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkImg from '../assets/logo2/mongoose1.png';
+import WorkImg from '../assets/logo2/js1.png';
 import realEstate from '../assets/logo2/js1.png';
 
 
@@ -24,12 +24,12 @@ const Work = () => {
                             ReactJs Application
                         </span>
                         <div className="pt-8 text-center">
-                            <a href='/'>
+                            <a href='https://ranjamovies.netlify.app/'>
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                     Demo
                                 </button>
                             </a>
-                            <a href='/'>
+                            <a href='https://ranjamovies.netlify.app/'>
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                     Code
                                 </button>
@@ -64,7 +64,7 @@ const Work = () => {
                             ReactJs Application
                         </span>
                         <div className="pt-8 text-center">
-                            <a href='/'>
+                            <a href='https://ranjamovies.netlify.app/'>
                                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                                     Demo
                                 </button>
