@@ -1,14 +1,17 @@
 import React from 'react';
-import HTML from '../assets/logo2/img9.png';
-import CSS from '../assets/logo2/img8.png';
-import JavaScript from '../assets/logo2/img7.png';
-import ReactImg from '../assets/logo2/img6.png';
-import NODE from '../assets/logo2/img5.png';
-import FireBase from '../assets/logo2/img10.png';
-import AWS from '../assets/logo2/img1.png';
-import GitHub from '../assets/logo2/img2.png';
-import TailWind from '../assets/logo2/img3.png';
-import Mongo from '../assets/logo2/img4.png';
+import HTML from '../assets/logo2/html1.png';
+import CSS from '../assets/logo2/css1.png';
+import JavaScript from '../assets/logo2/js1.png';
+import ReactImg from '../assets/logo2/react1.png';
+import NODE from '../assets/logo2/node1.jpg';
+import FireBase from '../assets/logo2/fb1.png';
+import AWS from '../assets/logo2/aws1.png';
+import GitHub from '../assets/logo2/git1.png';
+import TailWind from '../assets/logo2/tail1.png';
+import Mongo from '../assets/logo2/mongo1.png';
+import Express from '../assets/logo2/exp1.png';
+import ReactNative from '../assets/logo2/rn1.png'
+
 
 const Skills = () => {
   return (
@@ -53,8 +56,20 @@ const Skills = () => {
                     <p className="my-4">Firebase</p>
                 </div>
                 <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <img className="w-20 mx-auto" src={Express} alt="HTML icon"/>
+                    <p className="my-4">Express Js</p>
+                </div>
+                <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <img className="w-20 mx-auto" src={Mongo} alt="HTML icon"/>
+                    <p className="my-4">Mongo DB</p>
+                </div>
+                <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <img className="w-20 mx-auto" src={ReactNative} alt="HTML icon"/>
+                    <p className="my-4">React Native</p>
+                </div>
+                <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                     <img className="w-20 mx-auto" src={GitHub} alt="HTML icon"/>
-                    <p className="my-4">Next Js</p>
+                    <p className="my-4">GitHub</p>
                 </div>
 
             </div>

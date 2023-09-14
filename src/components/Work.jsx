@@ -1,6 +1,6 @@
 import React from 'react';
-import WorkImg from '../assets/logo2/img56.png';
-import realEstate from '../assets/logo2/img12.png';
+import WorkImg from '../assets/logo2/mongoose1.png';
+import realEstate from '../assets/logo2/js1.png';
 
 
 const Work = () => {
